@@ -1,0 +1,56 @@
+/* Navbar.css */
+
+.navbar {
+    background-color: #00FFFF; /* Cyan background color */
+    padding: 1rem; /* Adjust padding as needed */
+  }
+  
+  .navbar h2 {
+    font-size: 1.5rem; /* Example font size for the logo/title */
+  }
+  
+  .navbar-form {
+    margin: 0 auto; /* Center the form horizontally */
+    display: flex; /* Use flexbox to align items */
+    align-items: center; /* Center vertically within flex container */
+  }
+  
+  .search-input {
+    background-color: rgba(255, 255, 255, 0.75); /* Semi-transparent white background */
+    padding: 0.75rem 1rem; /* Adjust padding as needed */
+    border-radius: 999px; /* Rounded corners */
+    border: none; /* Remove border */
+    outline: none; /* Remove outline */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Example shadow */
+    width: 300px; /* Adjust width as needed */
+  }
+  
+  .search-input:focus {
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.5); /* Example focus shadow */
+  }
+  
+  .navbar ul {
+    display: flex;
+    gap: 1rem; /* Adjust gap between items */
+    list-style-type: none; /* Remove bullet points */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar li a {
+    color: #333; /* Text color */
+    text-decoration: none;
+    padding: 0.5rem 1rem; /* Adjust padding as needed */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth transition */
+  }
+  
+  .navbar li a:hover {
+    background-color: #ddd; /* Light grey background color on hover */
+  }
+  
+  .h-navbar-logo {
+    height: 6rem; /* Adjust based on your design */
+    width: auto; /* Maintain aspect ratio */
+  }
+  
